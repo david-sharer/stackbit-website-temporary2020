@@ -31,20 +31,25 @@ sections:
         is_scrolly: true
         is_primary: false
     component: Intro
-  - type: spotlights
-    title: What?
+  - type: spotlights-wip
+    title: Current projects
     section_id: current-projects
     background_style: style1
-    component: Spotlights
+    component: SpotlightsWIP
+  - type: spotlights2
+    title: Finished projects
+    section_id: finished-projects
+    background_style: style3
+    component: Spotlights2
   - type: features
-    title: Old games
+    title: Womp Womp
     # subtitle: >-
     #   Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis
     #   mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget
     #   hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit
     #   quis lorem.
-    section_id: finished-projects
-    background_style: style3
+    section_id: womp-womp
+    background_style: style2
     features_list:
       - title: Lorem ipsum amet
         text: >-

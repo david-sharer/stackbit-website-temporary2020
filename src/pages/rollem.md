@@ -1,7 +1,7 @@
 ---
 title: Rollem
 # content_img_path: https://rollem.rocks/assets/just-roll.png
-home_spotlights:
+home_spotlights_wip:
   enabled: true
   weight: 2
   excerpt: >-

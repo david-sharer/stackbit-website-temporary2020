@@ -31,7 +31,7 @@
 
 				&:before {
 					@include vendor('transition', 'opacity #{_duration(activation)} ease');
-					background: transparentize(_palette(accent1), 0.1);
+					background: transparentize(_palette(bg), 0.1);
 					content: '';
 					display: block;
 					height: 100%;
@@ -129,3 +129,36 @@
 		}
 	}
 
+
+
+	.spotlights.style1 {
+		> section {
+			> .image {
+				&:before {
+					background: transparentize(_palette(accent1), 0.1);
+				}
+			}
+		}
+	}
+
+
+	.spotlights.style2 {
+		> section {
+			> .image {
+				&:before {
+					background: transparentize(_palette(accent2), 0.1);
+				}
+			}
+		}
+	}
+
+
+	.spotlights.style3 {
+		> section {
+			> .image {
+				&:before {
+					background: transparentize(_palette(accent3), 0.1);
+				}
+			}
+		}
+	}

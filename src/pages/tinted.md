@@ -1,7 +1,7 @@
 ---
 title: Tinted
 content_img_path: images/pic04.jpg
-home_spotlights:
+home_spotlights_wip:
   enabled: true
   weight: 1
   excerpt: >-
