@@ -2,14 +2,14 @@
 title: Home
 sidebar:
   entries:
-    - title: Welcome
+    - title: Hello!
       url: '#intro'
       is_primary: true
-    - title: Who we are
-      url: '#one'
+    - title: Current Projects
+      url: '#current-projects'
       is_primary: false
-    - title: What we do
-      url: '#two'
+    - title: Finished Projects
+      url: '#finished-projects'
       is_primary: false
     - title: Get in touch
       url: '#three'
@@ -18,29 +18,32 @@ sections:
   - type: intro
     title: Temporary Games
     subtitle: |-
-      Cras aliquam amet adipiscing nibh faucibus suscipit ut Parturient  
-      col accumsan est arcu donec sed Eleifend Integer.
+       Making games with a bit of whimsy.
     section_id: intro
     background_style: style1
     actions:
-      - label: Learn more
-        url: '#one'
+      - label: Current Projects
+        url: '#current-projects'
+        is_scrolly: true
+        is_primary: false
+      - label: Finished Projects
+        url: '#finished-projects'
         is_scrolly: true
         is_primary: false
     component: Intro
   - type: spotlights
-    title: Spotlights Section
-    section_id: one
-    background_style: style2
+    title: What?
+    section_id: current-projects
+    background_style: style1
     component: Spotlights
   - type: features
-    title: What we do
-    subtitle: >-
-      Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis
-      mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget
-      hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit
-      quis lorem.
-    section_id: two
+    title: Old games
+    # subtitle: >-
+    #   Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis
+    #   mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget
+    #   hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit
+    #   quis lorem.
+    section_id: finished-projects
     background_style: style3
     features_list:
       - title: Lorem ipsum amet
@@ -63,16 +66,16 @@ sections:
           Phasellus convallis elit id ullam corper amet et pulvinar. Duis
           aliquam turpis mauris, sed ultricies erat dapibus.
         icon: fa-desktop
-      - title: Urna quis bibendum
-        text: >-
-          Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-          aliquam turpis mauris, sed ultricies erat dapibus.
-        icon: fa-chain
-      - title: Aliquam urna dapibus
-        text: >-
-          Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-          aliquam turpis mauris, sed ultricies erat dapibus.
-        icon: fa-diamond
+      # - title: Urna quis bibendum
+      #   text: >-
+      #     Phasellus convallis elit id ullam corper amet et pulvinar. Duis
+      #     aliquam turpis mauris, sed ultricies erat dapibus.
+      #   icon: fa-chain
+      # - title: Aliquam urna dapibus
+      #   text: >-
+      #     Phasellus convallis elit id ullam corper amet et pulvinar. Duis
+      #     aliquam turpis mauris, sed ultricies erat dapibus.
+      #   icon: fa-diamond
     actions:
       - label: Learn more
         url: /generic
@@ -87,7 +90,7 @@ sections:
       hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit
       quis lorem.
     section_id: three
-    background_style: style1
+    background_style: style2
     contact_list:
       - title: Address
         text: |-

@@ -1,11 +1,11 @@
 {
   "title": "Temporary Games",
-  "palette": "light-pastel",
+  "palette": "tinted-pastel",
   "palettes": {
     "blue": {
       "sass": {
-        "bg": "#253149",
         "fg": "#ffffff",
+        "bg": "#253149",
         "accent1": "#4167a6",
         "accent2": "#3f8eb3",
         "accent3": "#4ca07e"
@@ -13,8 +13,8 @@
     },
     "green": {
       "sass": {
-        "bg": "#20313d",
         "fg": "#ffffff",
+        "bg": "#20313d",
         "accent1": "#2e9692",
         "accent2": "#3aa4ca",
         "accent3": "#b84d50"
@@ -22,8 +22,8 @@
     },
     "purple": {
       "sass": {
-        "bg": "#312450",
         "fg": "#ffffff",
+        "bg": "#312450",
         "accent1": "#5e42a6",
         "accent2": "#5052b5",
         "accent3": "#b74e91"
@@ -32,11 +32,21 @@
     "light-pastel": {
       "sass": {
         "--": "https://coolors.co/e6c8ff-c8e6ff-c8ffe6-ffc8e6-ffffff",
-        "bg": "#ffffff",
         "fg": "#000000",
+        "bg": "#ffffff",
         "accent1": "#e6c8ff",
         "accent2": "#c8e6ff",
         "accent3": "#ffc8e6"
+      }
+    },
+    "tinted-pastel": {
+      "sass": {
+        "--": "https://coolors.co/e6c8ff-c8e6ff-c8ffe6-ffc8e6-ffffff",
+        "fg": "#000000",
+        "bg": "#ffffff",
+        "accent1": "#ffc8e6",
+        "accent2": "#c8e6ff",
+        "accent3": "#e6c8ff"
       }
     }
   }
