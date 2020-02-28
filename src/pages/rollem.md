@@ -1,8 +1,11 @@
 ---
 title: Rollem
 # content_img_path: https://rollem.rocks/assets/just-roll.png
-home_spotlights_wip:
+home_spotlights:
   enabled: true
+  filter_tag: WIP
+  tag:
+    text: live since 2013
   weight: 2
   excerpt: >-
     A dice-rolling bot for Discord that lets you Just Roll To Roll.

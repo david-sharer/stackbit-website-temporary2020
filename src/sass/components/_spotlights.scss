@@ -16,6 +16,14 @@
 				min-height: 0;
 			}
 
+			span.tag {
+				@include vendor('transition', 'opacity #{_duration(activation)} ease');
+				// background-color: _palette(bg);
+				padding: 0 1em;
+				opacity: 0.5;
+				cursor: default;
+			}
+
 			> .image {
 				background-position: center center;
 				background-size: cover;
@@ -74,6 +82,10 @@
 
 			&.inactive,
 			body.is-preload & {
+				span.tag {
+					opacity: 0;
+				}
+
 				> .image {
 					&:before {
 						opacity: 1;

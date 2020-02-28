@@ -1,8 +1,13 @@
 ---
 title: The Cube
 content_img_path: images/the-cube.jpg
-home_spotlights2:
+home_spotlights:
   enabled: true
+  filter_tag: DONE
+  tag:
+    text: completed 2019
+    # title: Work in Progress
+    # icon: fa-check
   weight: 2
   excerpt: >-
     A physical cube that knows how you're holding it. Solve the puzzle of lights!
