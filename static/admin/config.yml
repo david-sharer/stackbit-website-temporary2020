@@ -25,6 +25,7 @@ collections:
               - blue
               - green
               - purple
+              - light-pastel
           - widget: hidden
             name: palettes
             label: Palettes

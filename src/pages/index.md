@@ -16,7 +16,7 @@ sidebar:
       is_primary: false
 sections:
   - type: intro
-    title: Hyperspace
+    title: Temporary Games
     subtitle: |-
       Cras aliquam amet adipiscing nibh faucibus suscipit ut Parturient  
       col accumsan est arcu donec sed Eleifend Integer.
